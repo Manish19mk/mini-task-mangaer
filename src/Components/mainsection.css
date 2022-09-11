@@ -1,0 +1,131 @@
+.main-section {
+    width: 80vw;
+    height: 90vh;
+    background-color: #f7f7f7;
+  }
+  
+  .main-section-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .main-section-header-title-container {
+    padding: 0 2rem;
+  }
+  
+  .main-section-header-title {
+    font-size: 1.6em;
+    font-weight: 600;
+  }
+  
+  .main-section-header-sort-date-container {
+    margin-left: 27rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sort-date-select {
+    padding: 0.2rem 0.5rem;
+    margin-left: 1rem;
+    outline: none;
+    border-radius: 0.2rem;
+  }
+  
+  .main-section-header-add-task-container {
+    padding: 0 2rem;
+  }
+  
+  .add-task-btn {
+    padding: 0.5rem 1.2rem;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 0.2rem;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .add-task-btn:hover {
+    filter: brightness(95%);
+  }
+  
+  .main-section-tasks-container {
+    margin: 2rem 3rem;
+    max-height: 100%;
+    position: relative;
+  }
+  
+  .tasks-list {
+    overflow-y: auto;
+    height: 70vh;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-container {
+    background-color: #eee;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .task-container:hover {
+    box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-out;
+  }
+  
+  .high-priority {
+    border-left: 3px solid red;
+  }
+  
+  .mid-priority {
+    border-left: 3px solid orange;
+  }
+  
+  .low-priority {
+    border-left: 3px solid green;
+  }
+  
+  .task-message-text {
+    width: 53%;
+    color: var(--primary-text-color);
+  }
+  
+  .task-assigned-text {
+    width: 12%;
+    font-size: 0.9em;
+    color: #501f3a;
+  }
+  
+  .due-date-text {
+    width: 12%;
+    font-size: 0.8em;
+    font-weight: 500;
+    color: #501f3a;
+  }
+  
+  .action-icons {
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  
+  .action-icons :hover {
+    color: #3ba395;
+  }
+  
+  .tail-spin-loader-container {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    margin-top: 100px;
+  }
+  
